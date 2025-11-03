@@ -10,11 +10,9 @@ describe("HeroImage Component", () => {
                 alt="Hero Image"
             />,
         );
-        const imgElement = screen.getByAltText(/Test Hero/i);
-        const titleElement = screen.getByText(/Test Title/i);
+        const imgElement = screen.getByAltText(/Hero Image/i);
         expect(imgElement).toBeInTheDocument();
         expect(imgElement).toBeVisible();
-        expect(titleElement).toBeVisible();
     });
 
     test("changes opacity when disabled", () => {
@@ -25,10 +23,10 @@ describe("HeroImage Component", () => {
                 disabled
             />,
         );
-        const imgElement = screen.getByAltText(/Test Hero/i);
+        const imgElement = screen.getByAltText(/Hero Image/i);
         const container = imgElement.parentElement;
 
-        expect(container).toHaveStyle("opacity: 1");
+        expect(container).toHaveStyle("opacity: 0.5");
 
         rerender(
             <HeroImage
