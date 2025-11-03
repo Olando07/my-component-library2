@@ -1,5 +1,5 @@
 export interface TableCellProps {
-	children?: React.ReactNode;
-	disabled?: boolean;
-	textColor?: string;
+    children?: React.ReactNode;
+    disabled?: boolean;
+    textColor?: string;
 }

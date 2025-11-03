@@ -1,7 +1,7 @@
 export interface TextProps {
-	content: string; 
-	color?: string;
-	fontSize?: string;
-	fontWeight?: string;
-	disabled?: boolean;
+    content: string;
+    color?: string;
+    fontSize?: string;
+    fontWeight?: string;
+    disabled?: boolean;
 }

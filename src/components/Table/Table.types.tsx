@@ -1,5 +1,5 @@
 export interface TableProps {
-	children: React.ReactNode;
-	disabled?: boolean;
-	backgroundColor?: string;
+    children: React.ReactNode;
+    disabled?: boolean;
+    backgroundColor?: string;
 }

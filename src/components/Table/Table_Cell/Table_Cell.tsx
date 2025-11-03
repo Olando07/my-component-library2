@@ -13,10 +13,14 @@ const StyledTableCell = styled.td<{ disabled?: boolean; textColor?: string }>`
 	}
 `;
 
-export const TableCell: React.FC<TableCellProps> = ({ children, disabled, textColor }) => {
-	return (
-		<StyledTableCell disabled={disabled} textColor={textColor}>
-			{children}
-		</StyledTableCell>
-	);
+export const TableCell: React.FC<TableCellProps> = ({
+    children,
+    disabled,
+    textColor,
+}) => {
+    return (
+        <StyledTableCell disabled={disabled} textColor={textColor}>
+            {children}
+        </StyledTableCell>
+    );
 };
