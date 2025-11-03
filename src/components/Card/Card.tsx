@@ -4,17 +4,16 @@ import { CardProps } from "./Card.types";
 
 const StyledCard = styled.div<{
     background?: string;
-    disabled?: boolean;
+                disabled?: boolean;
 }>`
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 16px;
+                                                 padding: 16px;
     border-radius: 12px;
     transition: 0.3s ease;
-    cursor: pointer;
+                cursor: pointer;
     background-color: ${({ background }) => background || "#fff"};
-    box-shadow: opx 2px 6px rgba(0, 0, 0, 0.1);
     width: 280px;
 
     @media (min-width: 768px) {
