@@ -30,7 +30,7 @@ COPY --from=build /McDonald_Olando_ui_garden/storybook-static /usr/share/nginx/h
 # Copy nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
-# Expose port 8083
+# Expose port 8018
 EXPOSE 8018
 
 # Start nginx
