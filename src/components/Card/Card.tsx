@@ -14,6 +14,7 @@ const StyledCard = styled.div<{
     transition: 0.3s ease;
     cursor: pointer;
     background-color: ${({ background }) => background || "#fff"};
+    box-shadow: opx 2px 6px rgba(0, 0, 0, 0.1);
     width: 280px;
 
     @media (min-width: 768px) {
