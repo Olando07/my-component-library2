@@ -1,0 +1,9 @@
+# Check for format errors
+npm run format:check
+
+# Check for code errors
+npm run lint
+
+# Run tests
+npm run test:ci
+
