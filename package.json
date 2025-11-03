@@ -23,7 +23,7 @@
         "eject": "react-scripts eject",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
-        "test:ci": "react-scripts test --ci --watchAll=false --passWithNoTests",
+        "test:ci": "react-scripts test --ci --watchAll=false",
         "lint": "eslint . --ext .ts,.tsx",
         "lint:fix": "eslint . --ext .ts,.tsx --fix",
         "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
