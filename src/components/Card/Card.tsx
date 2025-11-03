@@ -12,7 +12,7 @@ const StyledCard = styled.div<{
     padding: 16px;
     border-radius: 12px;
     transition: 0.3s ease;
-                    cursor: pointer;
+    cursor: pointer;
     background-color: ${({ background }) => background || "#fff"};
     width: 280px;
 
